@@ -32,7 +32,9 @@
                     <div class="cargo">
                         <span></span>
                     </div>
+                    <div>Número:</div>
                     <div class="numeros">
+                        
                         <div>
                             <div class="numero pisca"></div>
                             <div class="numero"></div>
@@ -51,34 +53,40 @@
 
             </div>
             <div class="d-2">
-                Aperte a tela: <br />
-                CONFIRMA para CONFIRMAR este voto<br />
-                CORRIGE para REINICIAR este voto
+                <p class="mensagem">Aperte a tecla: <br />
+                    CONFIRMA para CONFIRMAR este voto<br />
+                    CORRIGE para REINICIAR este voto</p>
             </div>
         </div>
         <div class="teclado">
             <div class="linha">
-                <div class="botao" onclick="clicou('1')">1</div>
-                <div class="botao" onclick="clicou('2')">2</div>
-                <div class="botao" onclick="clicou('3')">3</div>
+                <div class="botao" onclick="clickNumber('1')">1</div>
+                <div class="botao" onclick="clickNumber('2')">2</div>
+                <div class="botao" onclick="clickNumber('3')">3</div>
             </div>
             <div class="linha">
-                <div class="botao" onclick="clicou('4')">4</div>
-                <div class="botao" onclick="clicou('5')">5</div>
-                <div class="botao" onclick="clicou('6')">6</div>
+                <div class="botao" onclick="clickNumber('4')">4</div>
+                <div class="botao" onclick="clickNumber('5')">5</div>
+                <div class="botao" onclick="clickNumber('6')">6</div>
             </div>
             <div class="linha">
-                <div class="botao" onclick="clicou('7')">7</div>
-                <div class="botao" onclick="clicou('8')">8</div>
-                <div class="botao" onclick="clicou('9')">9</div>
+                <div class="botao" onclick="clickNumber('7')">7</div>
+                <div class="botao" onclick="clickNumber('8')">8</div>
+                <div class="botao" onclick="clickNumber('9')">9</div>
             </div>
             <div class="linha">
-                <div class="botao" onclick="clicou('0')">0</div>
+                <div class="botao" onclick="clickNumber('0')">0</div>
             </div>
             <div class="linha">
-                <div class="botao branco" onclick="branco()">BRANCO</div>
-                <div class="botao corrige" onclick="corrige()">CORRIGE</div>
-                <div class="botao confirma" onclick="confirma()">CONFIRMA</div>
+                <div class="botao branco" onclick="botaoBranco()">
+                    <h4>BRANCO</h4>
+                </div>
+                <div class="botao corrige" onclick="botaoCorrige()">
+                    <h4>CORRIGE</h4>
+                </div>
+                <div class="botao confirma" onclick="botaoConfirma()">
+                    <h4>CONFIRMA</h4>
+                </div>
             </div>
         </div>
 
@@ -90,7 +98,10 @@
 
     <!--SCRIPT-->
     <script src="assets/JavaScript/etapas.js"></script>
-    <script src="assets/JavaScript/animacao.js"></script>
+    <script src="assets/JavaScript/main.js"></script>
+    <script src="assets/JavaScript/botoes_interativos.js"></script>
+    <script src="assets/JavaScript/botoes_numeros.js"></script>
+    <script src="assets/JavaScript/atualiza_tela.js"></script>
 </body>
 
 </html>

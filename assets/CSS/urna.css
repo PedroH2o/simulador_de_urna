@@ -21,7 +21,7 @@
 
 .tela {
     width: 500px;
-    height: 320px;
+    height: 350px;
     background: linear-gradient(to right, #e8e8e8, #c1c1c1);
     border: 2px solid #555;
     display: flex;
@@ -50,7 +50,8 @@
     align-items: center;
     margin: 10px;
     cursor: pointer;
-    box-shadow: 3px 3px 0px #555;
+    box-shadow: 0px 3px 2px #555;
+    border-radius: 5px;
 }
 
 .branco {
@@ -95,16 +96,20 @@
 }
 
 .cargo {
-    height: 50px;
+    height: 40px;
     display: flex;
-    align-items: center;
+    align-items:flex-start;
     padding-left: 5px;
     justify-content: center;
 }
 
 .numeros {
     height: 50px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
 }
+
 
 .numero {
     display: inline-block;
@@ -161,16 +166,26 @@
 }
 
 .aviso{
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
+    padding-bottom: 10px;
+    text-align: end;
 }
 
 .fim{
-    font-size: 50px;
+    font-size: 80px;
     font-weight: bold;
     text-align: center;
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.votou{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: end;
+    padding: 10px;
+    color: #808080;
 }

@@ -33,8 +33,8 @@ let etapas = [
                     partido: 'PFF',
                     vice: 'Alien XXX',
                     fotos: [
-                         { url: 'bruxo.png', legenda: 'Prefeito' },
-                         { url: 'estrangeiro.png', legenda: 'Vice-prefeito', small: true }
+                         { url: 'bruxo.png', legenda: 'Presidente' },
+                         { url: 'estrangeiro.png', legenda: 'Vice', small: true }
                     ]
                },
                {
@@ -43,8 +43,8 @@ let etapas = [
                     partido: 'PFF',
                     vice: 'Fantasma Camarada',
                     fotos: [
-                         { url: 'cavaleiro.png', legenda: 'Prefeito' },
-                         { url: 'fantasma.png', legenda: 'Vice-prefeito', small: true }
+                         { url: 'cavaleiro.png', legenda: 'Presidente' },
+                         { url: 'fantasma.png', legenda: 'Vice', small: true }
                     ]
                },
           ]
