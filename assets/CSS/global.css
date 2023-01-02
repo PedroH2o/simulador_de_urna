@@ -1,0 +1,17 @@
+
+*{
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
